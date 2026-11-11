@@ -1,0 +1,52 @@
+name: MUJAA demo market-data collector
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/15 * * * *"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: mujaa-demo-market-data
+  cancel-in-progress: false
+
+jobs:
+  collect-market-data:
+    name: Collect Solana market snapshot
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip && pip install -r requirements.txt
+
+      - name: Run MUJAA market-data collector
+        run: python -u mujaa_bot.py
+        env:
+          LOG_LEVEL: INFO
+          MUJAA_SEARCH_TERMS: SOL,USDC
+          MUJAA_MIN_LIQUIDITY_USD: "10000"
+          MUJAA_MIN_VOLUME_24H_USD: "10000"
+
+      - name: Save snapshot and engine log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mujaa-market-data-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            data/market_snapshots.jsonl
+            data/engine.log
+          if-no-files-found: warn
+          retention-days: 14
+          
