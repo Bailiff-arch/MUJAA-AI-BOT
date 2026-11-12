@@ -1,4 +1,6 @@
-name: MUJAA demo market-data collector
+
+
+name: MUJAA AI paper trading demo
 
 on:
   workflow_dispatch:
@@ -6,20 +8,22 @@ on:
     - cron: "*/15 * * * *"
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
-  group: mujaa-demo-market-data
+  group: mujaa-paper-trading
   cancel-in-progress: false
 
 jobs:
-  collect-market-data:
-    name: Collect Solana market snapshot
+  paper-trading:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
+
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -29,9 +33,14 @@ jobs:
           cache-dependency-path: requirements.txt
 
       - name: Install dependencies
-        run: python -m pip install --upgrade pip && pip install -r requirements.txt
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
-      - name: Run MUJAA market-data collector
+      - name: Test paper trader
+        run: python -m unittest -v test_paper_trader.py
+
+      - name: Collect Solana market data
         run: python -u mujaa_bot.py
         env:
           LOG_LEVEL: INFO
@@ -39,14 +48,37 @@ jobs:
           MUJAA_MIN_LIQUIDITY_USD: "10000"
           MUJAA_MIN_VOLUME_24H_USD: "10000"
 
-      - name: Save snapshot and engine log
+      - name: Run paper trading simulator
+        run: python -u paper_trader.py
+        env:
+          STARTING_CASH: "100"
+          FEE_RATE: "0.0025"
+          SLIPPAGE: "0.005"
+          STOP_LOSS: "0.05"
+          TAKE_PROFIT: "0.10"
+          MAX_POSITIONS: "3"
+          MAX_POSITION_FRACTION: "0.20"
+
+      - name: Save virtual portfolio state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/paper_portfolio.json
+          if git diff --cached --quiet; then
+            echo "No portfolio changes to save."
+          else
+            git commit -m "Update MUJAA virtual portfolio"
+            git push origin HEAD:main
+          fi
+
+      - name: Upload trading records
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: mujaa-market-data-${{ github.run_id }}-${{ github.run_attempt }}
+          name: mujaa-paper-trading-${{ github.run_id }}
           path: |
             data/market_snapshots.jsonl
             data/engine.log
+            data/paper_portfolio.json
           if-no-files-found: warn
           retention-days: 14
-          
