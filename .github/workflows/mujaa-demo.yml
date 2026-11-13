@@ -44,7 +44,7 @@ jobs:
         run: python -u mujaa_bot.py
         env:
           LOG_LEVEL: INFO
-          MUJAA_SEARCH_TERMS: SOL,USDC
+          MUJAA_SEARCH_TERMS: BONK,WIF,POPCAT,MEW,BOME,GOAT,PNUT,FWOG,ACT
           MUJAA_MIN_LIQUIDITY_USD: "10000"
           MUJAA_MIN_VOLUME_24H_USD: "10000"
 
