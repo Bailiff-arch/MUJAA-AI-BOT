@@ -1,21 +1,74 @@
 {
-  "cash": 100.0,
+  "cash": 40.0,
   "created_at": "2026-11-12T19:38:11.147830+00:00",
-  "last_snapshot_timestamp": "2026-11-13T00:48:55.927187+00:00",
-  "last_updated": "2026-11-13T00:48:55.973410+00:00",
+  "last_snapshot_timestamp": "2026-11-13T01:51:49.417378+00:00",
+  "last_updated": "2026-11-13T01:51:49.474971+00:00",
   "mode": "paper_only",
-  "positions": {},
+  "positions": {
+    "2qEHjDLDLbuBgRYvsxhc5D6uDWAivNFZGan56P1tpump": {
+      "cost_basis": 20.0,
+      "entry_price": 0.0325218,
+      "last_price": 0.03236,
+      "opened_at": "2026-11-13T01:51:49.474911+00:00",
+      "quantity": 613.4346807372287,
+      "symbol": "PNUT"
+    },
+    "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263": {
+      "cost_basis": 20.0,
+      "entry_price": 2.7295799999999995e-06,
+      "last_price": 2.716e-06,
+      "opened_at": "2026-11-13T01:51:49.474778+00:00",
+      "quantity": 7308816.741037085,
+      "symbol": "BONK"
+    },
+    "GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump": {
+      "cost_basis": 20.0,
+      "entry_price": 0.009264089999999999,
+      "last_price": 0.009218,
+      "opened_at": "2026-11-13T01:51:49.474863+00:00",
+      "quantity": 2153.4764882465524,
+      "symbol": "ACT"
+    }
+  },
   "starting_cash": 100.0,
   "summary": {
-    "cash": 100.0,
-    "equity": 100.0,
-    "last_snapshot_timestamp": "2026-11-13T00:48:55.927187+00:00",
-    "open_positions": 0,
-    "position_value": 0,
+    "cash": 40.0,
+    "equity": 99.55223881,
+    "last_snapshot_timestamp": "2026-11-13T01:51:49.417378+00:00",
+    "open_positions": 3,
+    "position_value": 59.55223881,
     "realized_pnl": 0,
     "starting_cash": 100.0,
-    "trade_count": 0,
-    "unrealized_pnl": 0
+    "trade_count": 3,
+    "unrealized_pnl": -0.44776119
   },
-  "trades": []
+  "trades": [
+    {
+      "address": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+      "cost": 20.0,
+      "price": 2.7295799999999995e-06,
+      "quantity": 7308816.741037085,
+      "side": "BUY",
+      "symbol": "BONK",
+      "time": "2026-11-13T01:51:49.474790+00:00"
+    },
+    {
+      "address": "GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump",
+      "cost": 20.0,
+      "price": 0.009264089999999999,
+      "quantity": 2153.4764882465524,
+      "side": "BUY",
+      "symbol": "ACT",
+      "time": "2026-11-13T01:51:49.474866+00:00"
+    },
+    {
+      "address": "2qEHjDLDLbuBgRYvsxhc5D6uDWAivNFZGan56P1tpump",
+      "cost": 20.0,
+      "price": 0.0325218,
+      "quantity": 613.4346807372287,
+      "side": "BUY",
+      "symbol": "PNUT",
+      "time": "2026-11-13T01:51:49.474913+00:00"
+    }
+  ]
 }
