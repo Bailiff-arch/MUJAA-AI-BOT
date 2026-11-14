@@ -1,22 +1,14 @@
 {
-  "cash": 58.152983298569026,
+  "cash": 76.32076547078177,
   "created_at": "2026-11-12T19:38:11.147830+00:00",
-  "last_snapshot_timestamp": "2026-11-14T14:14:33.422496+00:00",
-  "last_updated": "2026-11-14T14:14:33.473443+00:00",
+  "last_snapshot_timestamp": "2026-11-14T14:57:08.250383+00:00",
+  "last_updated": "2026-11-14T14:57:08.301791+00:00",
   "mode": "paper_only",
   "positions": {
-    "7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr": {
-      "cost_basis": 19.422800665496677,
-      "entry_price": 0.0318585,
-      "last_price": 0.03032,
-      "opened_at": "2026-11-14T08:28:11.316531+00:00",
-      "quantity": 608.1342079455385,
-      "symbol": "POPCAT"
-    },
     "GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump": {
       "cost_basis": 20.0,
       "entry_price": 0.009264089999999999,
-      "last_price": 0.009011,
+      "last_price": 0.008879,
       "opened_at": "2026-11-13T01:51:49.474863+00:00",
       "quantity": 2153.4764882465524,
       "symbol": "ACT"
@@ -24,15 +16,15 @@
   },
   "starting_cash": 100.0,
   "summary": {
-    "cash": 58.1529833,
-    "equity": 95.99658912,
-    "last_snapshot_timestamp": "2026-11-14T14:14:33.422496+00:00",
-    "open_positions": 2,
-    "position_value": 37.84360582,
-    "realized_pnl": -2.42421603,
+    "cash": 76.32076547,
+    "equity": 95.44148321,
+    "last_snapshot_timestamp": "2026-11-14T14:57:08.250383+00:00",
+    "open_positions": 1,
+    "position_value": 19.12071774,
+    "realized_pnl": -3.67923452,
     "starting_cash": 100.0,
-    "trade_count": 6,
-    "unrealized_pnl": -1.57919484
+    "trade_count": 7,
+    "unrealized_pnl": -0.87928226
   },
   "trades": [
     {
@@ -92,6 +84,17 @@
       "side": "SELL",
       "symbol": "PNUT",
       "time": "2026-11-14T10:56:30.682612+00:00"
+    },
+    {
+      "address": "7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr",
+      "pnl": -1.25501849,
+      "price": 0.0301,
+      "proceeds": 18.16778217,
+      "quantity": 608.1342079455385,
+      "reason": "stop_loss",
+      "side": "SELL",
+      "symbol": "POPCAT",
+      "time": "2026-11-14T14:57:08.301668+00:00"
     }
   ]
 }
