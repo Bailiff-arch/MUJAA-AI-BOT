@@ -1,14 +1,14 @@
 {
   "cash": 40.0,
   "created_at": "2026-11-12T19:38:11.147830+00:00",
-  "last_snapshot_timestamp": "2026-11-14T02:29:01.079528+00:00",
-  "last_updated": "2026-11-14T02:29:01.137661+00:00",
+  "last_snapshot_timestamp": "2026-11-14T03:21:20.510593+00:00",
+  "last_updated": "2026-11-14T03:21:20.562943+00:00",
   "mode": "paper_only",
   "positions": {
     "2qEHjDLDLbuBgRYvsxhc5D6uDWAivNFZGan56P1tpump": {
       "cost_basis": 20.0,
       "entry_price": 0.0325218,
-      "last_price": 0.03125,
+      "last_price": 0.03135,
       "opened_at": "2026-11-13T01:51:49.474911+00:00",
       "quantity": 613.4346807372287,
       "symbol": "PNUT"
@@ -16,7 +16,7 @@
     "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263": {
       "cost_basis": 20.0,
       "entry_price": 2.7295799999999995e-06,
-      "last_price": 2.684e-06,
+      "last_price": 2.617e-06,
       "opened_at": "2026-11-13T01:51:49.474778+00:00",
       "quantity": 7308816.741037085,
       "symbol": "BONK"
@@ -24,7 +24,7 @@
     "GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump": {
       "cost_basis": 20.0,
       "entry_price": 0.009264089999999999,
-      "last_price": 0.008995,
+      "last_price": 0.008912,
       "opened_at": "2026-11-13T01:51:49.474863+00:00",
       "quantity": 2153.4764882465524,
       "symbol": "ACT"
@@ -33,14 +33,14 @@
   "starting_cash": 100.0,
   "summary": {
     "cash": 40.0,
-    "equity": 98.15721892,
-    "last_snapshot_timestamp": "2026-11-14T02:29:01.079528+00:00",
+    "equity": 97.55013312,
+    "last_snapshot_timestamp": "2026-11-14T03:21:20.510593+00:00",
     "open_positions": 3,
-    "position_value": 58.15721892,
+    "position_value": 57.55013312,
     "realized_pnl": 0,
     "starting_cash": 100.0,
     "trade_count": 3,
-    "unrealized_pnl": -1.84278108
+    "unrealized_pnl": -2.44986688
   },
   "trades": [
     {
