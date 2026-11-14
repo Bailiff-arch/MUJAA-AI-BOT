@@ -1,22 +1,30 @@
 {
-  "cash": 58.78084412505771,
+  "cash": 39.35804345956103,
   "created_at": "2026-11-12T19:38:11.147830+00:00",
-  "last_snapshot_timestamp": "2026-11-14T07:34:37.574766+00:00",
-  "last_updated": "2026-11-14T07:34:37.623344+00:00",
+  "last_snapshot_timestamp": "2026-11-14T08:28:11.265631+00:00",
+  "last_updated": "2026-11-14T08:28:11.316650+00:00",
   "mode": "paper_only",
   "positions": {
     "2qEHjDLDLbuBgRYvsxhc5D6uDWAivNFZGan56P1tpump": {
       "cost_basis": 20.0,
       "entry_price": 0.0325218,
-      "last_price": 0.03094,
+      "last_price": 0.031,
       "opened_at": "2026-11-13T01:51:49.474911+00:00",
       "quantity": 613.4346807372287,
       "symbol": "PNUT"
     },
+    "7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr": {
+      "cost_basis": 19.422800665496677,
+      "entry_price": 0.0318585,
+      "last_price": 0.0317,
+      "opened_at": "2026-11-14T08:28:11.316531+00:00",
+      "quantity": 608.1342079455385,
+      "symbol": "POPCAT"
+    },
     "GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump": {
       "cost_basis": 20.0,
       "entry_price": 0.009264089999999999,
-      "last_price": 0.008967,
+      "last_price": 0.00897,
       "opened_at": "2026-11-13T01:51:49.474863+00:00",
       "quantity": 2153.4764882465524,
       "symbol": "ACT"
@@ -24,15 +32,15 @@
   },
   "starting_cash": 100.0,
   "summary": {
-    "cash": 58.78084413,
-    "equity": 97.07073682,
-    "last_snapshot_timestamp": "2026-11-14T07:34:37.574766+00:00",
-    "open_positions": 2,
-    "position_value": 38.28989269,
+    "cash": 39.35804346,
+    "equity": 96.96905705,
+    "last_snapshot_timestamp": "2026-11-14T08:28:11.265631+00:00",
+    "open_positions": 3,
+    "position_value": 57.61101359,
     "realized_pnl": -1.21915587,
     "starting_cash": 100.0,
-    "trade_count": 4,
-    "unrealized_pnl": -1.71010731
+    "trade_count": 5,
+    "unrealized_pnl": -1.81178707
   },
   "trades": [
     {
@@ -72,6 +80,15 @@
       "side": "SELL",
       "symbol": "BONK",
       "time": "2026-11-14T07:34:37.623264+00:00"
+    },
+    {
+      "address": "7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr",
+      "cost": 19.42280067,
+      "price": 0.0318585,
+      "quantity": 608.1342079455385,
+      "side": "BUY",
+      "symbol": "POPCAT",
+      "time": "2026-11-14T08:28:11.316541+00:00"
     }
   ]
 }
