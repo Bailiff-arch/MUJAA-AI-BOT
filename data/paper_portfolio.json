@@ -1,8 +1,8 @@
 {
-  "cash": 70.18526173815877,
+  "cash": 47.124954407306845,
   "created_at": "2026-11-12T19:38:11.147830+00:00",
-  "last_snapshot_timestamp": "2026-11-15T14:17:07.482315+00:00",
-  "last_updated": "2026-11-15T14:17:07.536095+00:00",
+  "last_snapshot_timestamp": "2026-11-15T15:10:05.788983+00:00",
+  "last_updated": "2026-11-15T15:10:05.834949+00:00",
   "mode": "paper_only",
   "positions": {
     "AhyDt549ZtmVJcoAeLxVWvCb2gwgSiBQkXeywetMp6w9": {
@@ -12,6 +12,14 @@
       "opened_at": "2026-11-15T13:26:32.625423+00:00",
       "quantity": 768485.0017936671,
       "symbol": "PNUT"
+    },
+    "GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump": {
+      "cost_basis": 23.060307330851927,
+      "entry_price": 0.008918369999999998,
+      "last_price": 0.008874,
+      "opened_at": "2026-11-15T15:10:05.834843+00:00",
+      "quantity": 2579.2444765719297,
+      "symbol": "ACT"
     },
     "HGT4vvERrLDCCpr4NtPF5QJgcXHCgvMXKWtHLVX9xKuX": {
       "cost_basis": 23.09477714748997,
@@ -24,15 +32,15 @@
   },
   "starting_cash": 100.0,
   "summary": {
-    "cash": 70.18526174,
-    "equity": 115.30153665,
-    "last_snapshot_timestamp": "2026-11-15T14:17:07.482315+00:00",
-    "open_positions": 2,
-    "position_value": 45.11627492,
+    "cash": 47.12495441,
+    "equity": 115.12944481,
+    "last_snapshot_timestamp": "2026-11-15T15:10:05.788983+00:00",
+    "open_positions": 3,
+    "position_value": 68.0044904,
     "realized_pnl": 15.64075678,
     "starting_cash": 100.0,
-    "trade_count": 14,
-    "unrealized_pnl": -0.33922011
+    "trade_count": 15,
+    "unrealized_pnl": -0.51131196
   },
   "trades": [
     {
@@ -172,6 +180,15 @@
       "side": "BUY",
       "symbol": "BOME",
       "time": "2026-11-15T14:17:07.536013+00:00"
+    },
+    {
+      "address": "GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump",
+      "cost": 23.06030733,
+      "price": 0.008918369999999998,
+      "quantity": 2579.2444765719297,
+      "side": "BUY",
+      "symbol": "ACT",
+      "time": "2026-11-15T15:10:05.834855+00:00"
     }
   ]
 }
