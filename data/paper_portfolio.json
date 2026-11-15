@@ -1,21 +1,30 @@
 {
-  "cash": 94.81527520858386,
+  "cash": 75.85222016686708,
   "created_at": "2026-11-12T19:38:11.147830+00:00",
-  "last_snapshot_timestamp": "2026-11-15T11:36:57.863087+00:00",
-  "last_updated": "2026-11-15T11:36:57.921694+00:00",
+  "last_snapshot_timestamp": "2026-11-15T12:20:05.445719+00:00",
+  "last_updated": "2026-11-15T12:20:05.508252+00:00",
   "mode": "paper_only",
-  "positions": {},
+  "positions": {
+    "HGT4vvERrLDCCpr4NtPF5QJgcXHCgvMXKWtHLVX9xKuX": {
+      "cost_basis": 18.96305504171677,
+      "entry_price": 3.08937e-05,
+      "last_price": 3.074e-05,
+      "opened_at": "2026-11-15T12:20:05.508116+00:00",
+      "quantity": 612281.7080541496,
+      "symbol": "BOME"
+    }
+  },
   "starting_cash": 100.0,
   "summary": {
-    "cash": 94.81527521,
-    "equity": 94.81527521,
-    "last_snapshot_timestamp": "2026-11-15T11:36:57.863087+00:00",
-    "open_positions": 0,
-    "position_value": 0,
+    "cash": 75.85222017,
+    "equity": 94.67375987,
+    "last_snapshot_timestamp": "2026-11-15T12:20:05.445719+00:00",
+    "open_positions": 1,
+    "position_value": 18.82153971,
     "realized_pnl": -5.18472478,
     "starting_cash": 100.0,
-    "trade_count": 8,
-    "unrealized_pnl": 0
+    "trade_count": 9,
+    "unrealized_pnl": -0.14151534
   },
   "trades": [
     {
@@ -97,6 +106,15 @@
       "side": "SELL",
       "symbol": "ACT",
       "time": "2026-11-14T15:31:45.132844+00:00"
+    },
+    {
+      "address": "HGT4vvERrLDCCpr4NtPF5QJgcXHCgvMXKWtHLVX9xKuX",
+      "cost": 18.96305504,
+      "price": 3.08937e-05,
+      "quantity": 612281.7080541496,
+      "side": "BUY",
+      "symbol": "BOME",
+      "time": "2026-11-15T12:20:05.508125+00:00"
     }
   ]
 }
