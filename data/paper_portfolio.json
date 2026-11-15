@@ -1,30 +1,38 @@
 {
-  "cash": 75.85222016686708,
+  "cash": 67.08215364228604,
   "created_at": "2026-11-12T19:38:11.147830+00:00",
-  "last_snapshot_timestamp": "2026-11-15T12:20:05.445719+00:00",
-  "last_updated": "2026-11-15T12:20:05.508252+00:00",
+  "last_snapshot_timestamp": "2026-11-15T13:26:32.573631+00:00",
+  "last_updated": "2026-11-15T13:26:32.625504+00:00",
   "mode": "paper_only",
   "positions": {
+    "AhyDt549ZtmVJcoAeLxVWvCb2gwgSiBQkXeywetMp6w9": {
+      "cost_basis": 22.360717880762014,
+      "entry_price": 2.90244e-05,
+      "last_price": 2.888e-05,
+      "opened_at": "2026-11-15T13:26:32.625423+00:00",
+      "quantity": 768485.0017936671,
+      "symbol": "PNUT"
+    },
     "HGT4vvERrLDCCpr4NtPF5QJgcXHCgvMXKWtHLVX9xKuX": {
-      "cost_basis": 18.96305504171677,
-      "entry_price": 3.08937e-05,
-      "last_price": 3.074e-05,
-      "opened_at": "2026-11-15T12:20:05.508116+00:00",
-      "quantity": 612281.7080541496,
+      "cost_basis": 22.360717880762014,
+      "entry_price": 5.9455799999999994e-05,
+      "last_price": 5.916e-05,
+      "opened_at": "2026-11-15T13:26:32.625361+00:00",
+      "quantity": 375149.5411054954,
       "symbol": "BOME"
     }
   },
   "starting_cash": 100.0,
   "summary": {
-    "cash": 75.85222017,
-    "equity": 94.67375987,
-    "last_snapshot_timestamp": "2026-11-15T12:20:05.445719+00:00",
-    "open_positions": 1,
-    "position_value": 18.82153971,
-    "realized_pnl": -5.18472478,
+    "cash": 67.08215364,
+    "equity": 111.46984735,
+    "last_snapshot_timestamp": "2026-11-15T13:26:32.573631+00:00",
+    "open_positions": 2,
+    "position_value": 44.3876937,
+    "realized_pnl": 11.80358942,
     "starting_cash": 100.0,
-    "trade_count": 9,
-    "unrealized_pnl": -0.14151534
+    "trade_count": 12,
+    "unrealized_pnl": -0.33374206
   },
   "trades": [
     {
@@ -115,6 +123,35 @@
       "side": "BUY",
       "symbol": "BOME",
       "time": "2026-11-15T12:20:05.508125+00:00"
+    },
+    {
+      "address": "HGT4vvERrLDCCpr4NtPF5QJgcXHCgvMXKWtHLVX9xKuX",
+      "pnl": 16.9883142,
+      "price": 5.916e-05,
+      "proceeds": 35.95136924,
+      "quantity": 612281.7080541496,
+      "reason": "take_profit",
+      "side": "SELL",
+      "symbol": "BOME",
+      "time": "2026-11-15T13:26:32.625254+00:00"
+    },
+    {
+      "address": "HGT4vvERrLDCCpr4NtPF5QJgcXHCgvMXKWtHLVX9xKuX",
+      "cost": 22.36071788,
+      "price": 5.9455799999999994e-05,
+      "quantity": 375149.5411054954,
+      "side": "BUY",
+      "symbol": "BOME",
+      "time": "2026-11-15T13:26:32.625365+00:00"
+    },
+    {
+      "address": "AhyDt549ZtmVJcoAeLxVWvCb2gwgSiBQkXeywetMp6w9",
+      "cost": 22.36071788,
+      "price": 2.90244e-05,
+      "quantity": 768485.0017936671,
+      "side": "BUY",
+      "symbol": "PNUT",
+      "time": "2026-11-15T13:26:32.625426+00:00"
     }
   ]
 }
