@@ -1,8 +1,8 @@
 {
   "cash": 47.124954407306845,
   "created_at": "2026-11-12T19:38:11.147830+00:00",
-  "last_snapshot_timestamp": "2026-11-15T23:57:11.873580+00:00",
-  "last_updated": "2026-11-15T23:57:11.925883+00:00",
+  "last_snapshot_timestamp": "2026-11-16T01:08:32.834709+00:00",
+  "last_updated": "2026-11-16T01:08:32.888033+00:00",
   "mode": "paper_only",
   "positions": {
     "AhyDt549ZtmVJcoAeLxVWvCb2gwgSiBQkXeywetMp6w9": {
@@ -16,7 +16,7 @@
     "GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump": {
       "cost_basis": 23.060307330851927,
       "entry_price": 0.008918369999999998,
-      "last_price": 0.008901,
+      "last_price": 0.008836,
       "opened_at": "2026-11-15T15:10:05.834843+00:00",
       "quantity": 2579.2444765719297,
       "symbol": "ACT"
@@ -33,14 +33,14 @@
   "starting_cash": 100.0,
   "summary": {
     "cash": 47.12495441,
-    "equity": 115.19908441,
-    "last_snapshot_timestamp": "2026-11-15T23:57:11.873580+00:00",
+    "equity": 115.03143352,
+    "last_snapshot_timestamp": "2026-11-16T01:08:32.834709+00:00",
     "open_positions": 3,
-    "position_value": 68.07413,
+    "position_value": 67.90647911,
     "realized_pnl": 15.64075678,
     "starting_cash": 100.0,
     "trade_count": 15,
-    "unrealized_pnl": -0.44167236
+    "unrealized_pnl": -0.60932325
   },
   "trades": [
     {
