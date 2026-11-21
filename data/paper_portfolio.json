@@ -1,8 +1,8 @@
 {
-  "cash": 47.124954407306845,
+  "cash": 68.65654568537616,
   "created_at": "2026-11-12T19:38:11.147830+00:00",
-  "last_snapshot_timestamp": "2026-11-21T03:32:26.017409+00:00",
-  "last_updated": "2026-11-21T03:32:26.068706+00:00",
+  "last_snapshot_timestamp": "2026-11-21T04:38:24.976246+00:00",
+  "last_updated": "2026-11-21T04:38:25.026035+00:00",
   "mode": "paper_only",
   "positions": {
     "AhyDt549ZtmVJcoAeLxVWvCb2gwgSiBQkXeywetMp6w9": {
@@ -12,14 +12,6 @@
       "opened_at": "2026-11-15T13:26:32.625423+00:00",
       "quantity": 768485.0017936671,
       "symbol": "PNUT"
-    },
-    "GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump": {
-      "cost_basis": 23.060307330851927,
-      "entry_price": 0.008918369999999998,
-      "last_price": 0.008598,
-      "opened_at": "2026-11-15T15:10:05.834843+00:00",
-      "quantity": 2579.2444765719297,
-      "symbol": "ACT"
     },
     "HGT4vvERrLDCCpr4NtPF5QJgcXHCgvMXKWtHLVX9xKuX": {
       "cost_basis": 23.09477714748997,
@@ -32,15 +24,15 @@
   },
   "starting_cash": 100.0,
   "summary": {
-    "cash": 47.12495441,
-    "equity": 114.41757333,
-    "last_snapshot_timestamp": "2026-11-21T03:32:26.017409+00:00",
-    "open_positions": 3,
-    "position_value": 67.29261893,
-    "realized_pnl": 15.64075678,
+    "cash": 68.65654569,
+    "equity": 113.7728206,
+    "last_snapshot_timestamp": "2026-11-21T04:38:24.976246+00:00",
+    "open_positions": 2,
+    "position_value": 45.11627492,
+    "realized_pnl": 14.11204073,
     "starting_cash": 100.0,
-    "trade_count": 15,
-    "unrealized_pnl": -1.22318343
+    "trade_count": 16,
+    "unrealized_pnl": -0.33922011
   },
   "trades": [
     {
@@ -189,6 +181,17 @@
       "side": "BUY",
       "symbol": "ACT",
       "time": "2026-11-15T15:10:05.834855+00:00"
+    },
+    {
+      "address": "GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump",
+      "pnl": -1.52871605,
+      "price": 0.008411,
+      "proceeds": 21.53159128,
+      "quantity": 2579.2444765719297,
+      "reason": "stop_loss",
+      "side": "SELL",
+      "symbol": "ACT",
+      "time": "2026-11-21T04:38:25.025949+00:00"
     }
   ]
 }
