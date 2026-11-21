@@ -1,8 +1,8 @@
 {
-  "cash": 68.65654568537616,
+  "cash": 45.90198156508076,
   "created_at": "2026-11-12T19:38:11.147830+00:00",
-  "last_snapshot_timestamp": "2026-11-21T07:54:28.942200+00:00",
-  "last_updated": "2026-11-21T07:54:28.987341+00:00",
+  "last_snapshot_timestamp": "2026-11-21T08:43:24.586780+00:00",
+  "last_updated": "2026-11-21T08:43:24.636673+00:00",
   "mode": "paper_only",
   "positions": {
     "AhyDt549ZtmVJcoAeLxVWvCb2gwgSiBQkXeywetMp6w9": {
@@ -20,19 +20,27 @@
       "opened_at": "2026-11-15T14:17:07.536009+00:00",
       "quantity": 325787.77805997373,
       "symbol": "BOME"
+    },
+    "HLR9eFPpoPvyq34ujYfZ14LGSDEfh483eVbZjTMv8oHs": {
+      "cost_basis": 22.754564120295402,
+      "entry_price": 0.0012693149999999998,
+      "last_price": 0.001263,
+      "opened_at": "2026-11-21T08:43:24.636587+00:00",
+      "quantity": 17881.832098411087,
+      "symbol": "REXIE"
     }
   },
   "starting_cash": 100.0,
   "summary": {
-    "cash": 68.65654569,
-    "equity": 113.7728206,
-    "last_snapshot_timestamp": "2026-11-21T07:54:28.942200+00:00",
-    "open_positions": 2,
-    "position_value": 45.11627492,
+    "cash": 45.90198157,
+    "equity": 113.60301042,
+    "last_snapshot_timestamp": "2026-11-21T08:43:24.586780+00:00",
+    "open_positions": 3,
+    "position_value": 67.70102886,
     "realized_pnl": 14.11204073,
     "starting_cash": 100.0,
-    "trade_count": 16,
-    "unrealized_pnl": -0.33922011
+    "trade_count": 17,
+    "unrealized_pnl": -0.50903029
   },
   "trades": [
     {
@@ -192,6 +200,15 @@
       "side": "SELL",
       "symbol": "ACT",
       "time": "2026-11-21T04:38:25.025949+00:00"
+    },
+    {
+      "address": "HLR9eFPpoPvyq34ujYfZ14LGSDEfh483eVbZjTMv8oHs",
+      "cost": 22.75456412,
+      "price": 0.0012693149999999998,
+      "quantity": 17881.832098411087,
+      "side": "BUY",
+      "symbol": "REXIE",
+      "time": "2026-11-21T08:43:24.636598+00:00"
     }
   ]
 }
